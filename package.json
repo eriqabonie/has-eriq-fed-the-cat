@@ -1,0 +1,29 @@
+{
+  "name": "has-eriq-fed-the-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriqabonie/has-eriq-fed-the-cat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eriqabonie/has-eriq-fed-the-cat/issues"
+  },
+  "homepage": "https://github.com/eriqabonie/has-eriq-fed-the-cat#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
