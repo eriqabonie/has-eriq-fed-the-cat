@@ -3,7 +3,9 @@ const Sequelize = require('sequelize');
 const CatModel = require('./cats');
 
 const setUpDatabase = () => {
-    const connection = new Sequelize("has_eriq_fed_the_cat", "root", "password", {
+    const connection = CLEARDB_DATABSE_URL ?
+    new Sequelize(CLEARDB_DATABSE_URL) :
+    new Sequelize("has_eriq_fed_the_cat", "root", "password", {
         host: "localhost",
         port: 3307,
         dialect: "mysql"
